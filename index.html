@@ -36,6 +36,7 @@
     <main>
       <section id="about">
         <h2>About</h2>
+        <div class="row">
         <div class="section__description">
           <div class="section__description--wrapper">
             <p class="section__description--para">
@@ -57,10 +58,12 @@
             <img src="./assets/about.jpg" alt="about image" />
           </figure>
         </div>
+        </div>
       </section>
 
       <section id="discord">
         <h2>Discord</h2>
+        <div class="row">
         <div class="section__description">
         <figure class="about__img--wrapper">
           <img src="./assets/discord.png" alt="discord image" />
@@ -80,10 +83,12 @@
           </p>
         </div>
       </div>
+    </div>
       </section>
 
       <section id="contact">
         <h2>Contact</h2>
+        <div class="row">
         <form action="">
           <label>Email</label>
           <input type="text" placeholder="john@example.com" />
@@ -97,19 +102,22 @@
           ></textarea>
           <button>Submit</button>
         </form>
+      </div>
       </section>
     </main>
 
-    <footer>
+    <section id="footer">
       <figure>
-        <img src="./assets/FES.svg" alt="" />
+        <img class="footer__logo" src="./assets/FES.svg" alt="" />
       </figure>
+      <div class="footer__links">
       <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#discord">Discord</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="courses">Courses</a></li>
+        <li><a class="footer__link" href="#about">About</a></li>
+        <li><a class="footer__link" href="#discord">Discord</a></li>
+        <li><a class="footer__link" href="#contact">Contact</a></li>
+        <li><a class="footer__link" href="courses">Courses</a></li>
       </ul>
+    </div>
       <p>Copyright Frontend Simplified</p>
     </footer>
   </body>
